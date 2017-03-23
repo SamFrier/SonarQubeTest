@@ -9,3 +9,10 @@ function fibonacci(num) {
     return fibonacci(num - 1) + fibonacci(num - 2);
   }
 }
+
+var x = 5;
+try {
+  console.log("Fibonacci number #" + x + " is " + fibonacci(x));
+} catch (error) {
+  console.log("Encountered error: " + error);
+}
