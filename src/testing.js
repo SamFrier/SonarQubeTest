@@ -1,5 +1,7 @@
 function fibonacci(num) {
-  if (num == 0) {
+  if (typeof num != 'number' || num % 1 != 0) {
+    throw new Error("Bad input");
+  } else if (num <= 0) {
     return 0;
   } else if (num == 1) {
     return 1;
