@@ -1,2 +1,4 @@
 # SonarQubeTest
-Testing GitHub's SonarQube integration
+Testing GitHub's SonarQube integration 
+
+(The actual code contained in this repo is more or less arbitrary)
